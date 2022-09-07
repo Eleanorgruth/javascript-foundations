@@ -10,8 +10,9 @@ class Dragon {
   }
   eat() {
     this.eatCount += 1
-    if (this.eatCount >= 3)
+    if (this.eatCount >= 3) {
     this.hungry = false
+  }
   }
 }
 
