@@ -90,7 +90,7 @@ describe('Medusa', function() {
     medusa.gazeAtVictim(victim2);
     medusa.gazeAtVictim(victim3);
 //this.statues("Pam", "Khalid", 'Scott',)
-console.log(medusa.statues)
+//console.log(medusa.statues)
 
     assert.equal(medusa.statues.length, 3);
     assert.deepEqual(medusa.statues, [statue1, statue2, statue3]);
